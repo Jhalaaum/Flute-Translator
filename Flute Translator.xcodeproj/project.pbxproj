@@ -11,6 +11,7 @@
 		6CA8E4A02E8EC9DD00229947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8E49F2E8EC9DD00229947 /* ContentView.swift */; };
 		6CA8E4A22E8EC9DE00229947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA8E4A12E8EC9DE00229947 /* Assets.xcassets */; };
 		6CA8E4A52E8EC9DE00229947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CA8E4A42E8EC9DE00229947 /* Preview Assets.xcassets */; };
+		6CA8E4AC2E8ECA7400229947 /* AudioAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA8E4AB2E8ECA7400229947 /* AudioAnalyser.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6CA8E49F2E8EC9DD00229947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6CA8E4A12E8EC9DE00229947 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6CA8E4A42E8EC9DE00229947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6CA8E4AB2E8ECA7400229947 /* AudioAnalyser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioAnalyser.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +37,7 @@
 		6CA8E4912E8EC9DD00229947 = {
 			isa = PBXGroup;
 			children = (
+				6CA8E4AB2E8ECA7400229947 /* AudioAnalyser.swift */,
 				6CA8E49C2E8EC9DD00229947 /* Flute Translator */,
 				6CA8E49B2E8EC9DD00229947 /* Products */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CA8E4AC2E8ECA7400229947 /* AudioAnalyser.swift in Sources */,
 				6CA8E4A02E8EC9DD00229947 /* ContentView.swift in Sources */,
 				6CA8E49E2E8EC9DD00229947 /* Flute_TranslatorApp.swift in Sources */,
 			);
@@ -269,11 +273,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Flute Translator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need the microphone to get the sound frequencies.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -297,11 +303,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Flute Translator/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "We need the microphone to get the sound frequencies.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
