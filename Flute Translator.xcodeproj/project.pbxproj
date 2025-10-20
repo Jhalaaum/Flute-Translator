@@ -37,7 +37,6 @@
 		6CA8E4912E8EC9DD00229947 = {
 			isa = PBXGroup;
 			children = (
-				6CA8E4AB2E8ECA7400229947 /* AudioAnalyser.swift */,
 				6CA8E49C2E8EC9DD00229947 /* Flute Translator */,
 				6CA8E49B2E8EC9DD00229947 /* Products */,
 			);
@@ -54,6 +53,7 @@
 		6CA8E49C2E8EC9DD00229947 /* Flute Translator */ = {
 			isa = PBXGroup;
 			children = (
+				6CA8E4AB2E8ECA7400229947 /* AudioAnalyser.swift */,
 				6CA8E49D2E8EC9DD00229947 /* Flute_TranslatorApp.swift */,
 				6CA8E49F2E8EC9DD00229947 /* ContentView.swift */,
 				6CA8E4A12E8EC9DE00229947 /* Assets.xcassets */,
